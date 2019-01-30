@@ -52,7 +52,6 @@ const newHeaderInfo = (document: TextDocument, headerInfo?: HeaderInfo) => {
     headerInfo,
     {
       filename: basename(document.fileName),
-      author: `${user} <${mail}>`,
       updatedBy: user,
       updatedAt: moment()
     }
