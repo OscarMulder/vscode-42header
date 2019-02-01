@@ -47,6 +47,7 @@ const newHeaderInfo = (document: TextDocument, headerInfo?: HeaderInfo) => {
     // This will be overwritten if headerInfo is not null
     {
       createdAt: moment(),
+      author: `${user} <${mail}>`,
       createdBy: user
     },
     headerInfo,
